@@ -1,12 +1,16 @@
-📑 **Gitbook** : https://sofias-notebook.gitbook.io/
+## 📑 **Gitbook** > https://sofias-notebook.gitbook.io/
 
-## connecting bluetooth automatically
+## 🎧 Bluetooth connection
 go to Home -> login.sh and save the following line at the bottom of the file
 ```bash
 bluetoothctl power on && connect ${mac address}
 ```
-(my headset's address : E8:EE:CC:A1:C5:BF)
 
+## 👾 Change user picture
+Choose a picture/gif and save it in the Home directory with the name `.face.jpg` (same name even if it's a gif file).
+Restart session.
+
+## 🃏 Random stuff
 - check function calls : nm -u {file_name}.a
 
 - check memory leaks : valgrind --leak-check=full
